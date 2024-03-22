@@ -7,6 +7,7 @@ import SapphyDoyleCV from '../assets/Sapphy-Doyle-CV.pdf';
 export default function Home() {
 
   const [showTick, setShowTick] = useState(false);
+  const [showBanner, setShowBanner] = useState(false);
 
   const handleDownload = () => {
     const link = document.createElement('a');
@@ -15,12 +16,21 @@ export default function Home() {
     link.click();
 
     setShowTick(true);
+    setShowBanner(true);
+
     setTimeout(() => {
       setShowTick(false);
+      setShowBanner(false);
     }, 5000);
   };
 
   return (
+    <>
+    {showBanner && (
+      <div className="banner">
+        CV download successful!
+      </div>
+    )}
     <div className="home container d-flex align-items-center justify-content-center">
       <div className="row">
         <div className="col-lg-6">
@@ -45,5 +55,6 @@ export default function Home() {
         </div>
       </div>
     </div>
+  </>
   );
 }
