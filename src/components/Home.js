@@ -44,11 +44,11 @@ export default function Home() {
             Morbi sit amet dui quam. Quisque in augue faucibus, fringilla ipsum ut, dapibus nibh. Cras hendrerit lobortis risus at aliquet. Sed eu quam enim. Phasellus ultrices ligula eget turpis dapibus, auctor lobortis ipsum vestibulum. Nam pulvinar nisi et mollis accumsan. Aenean fringilla metus quam, et porta metus egestas et. In vel neque quam. Curabitur id ipsum ut elit pulvinar porttitor. In quis rutrum diam, eget gravida massa. Donec non felis diam.
           </p>
           {showTick ? (
-            <h3 className="text-white">
+            <h3 className="text-center  resume-download">
               <FontAwesomeIcon icon={faCheck} /> Download complete
             </h3>
           ) : (
-            <h3 className="text-white resume-download" onClick={handleDownload}>
+            <h3 className="text-white text-center" onClick={handleDownload}>
               <FontAwesomeIcon icon={faDownload} /> Download my resume
             </h3>
           )}
