@@ -1,3 +1,7 @@
 .home {
     height: 90vh;
 }
+
+.resume-download {
+    cursor: pointer;
+}
