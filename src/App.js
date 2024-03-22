@@ -8,12 +8,15 @@ import Skills from './components/Skills';
 import History from './components/History';
 import Contact from './components/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ParticlesComponent from './components/ParticlesOpts';
+import Particles from "react-tsparticles";
 
 function App() {
   return (
     <Router>
       <div>
         <NavBar />
+        <ParticlesComponent id="tsparticles" />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
