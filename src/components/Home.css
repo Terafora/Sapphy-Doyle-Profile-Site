@@ -5,3 +5,18 @@
 .resume-download {
     cursor: pointer;
 }
+
+.banner {
+    background-color: aquamarine;
+    color: green;
+    border: 1px solid green;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    top: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+}
