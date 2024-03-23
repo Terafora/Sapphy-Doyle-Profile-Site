@@ -1,0 +1,30 @@
+.about-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.about-text {
+    padding: 20px 10px;
+}
+
+@media screen and (max-width: 1400px) {
+    .about-row {
+        flex-direction: column;
+    }
+
+    .about-text {
+        margin-top: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 991px) {
+
+
+    .about-text {
+        margin-top: 20px;
+    }
+    
+}
