@@ -9,3 +9,9 @@
     font-size: 1.2em;
     font-weight: 500;
   }
+
+  @media screen and (max-width: 991px){
+    .navbar-sect {
+      margin-bottom: 20vh;
+    }
+  }
