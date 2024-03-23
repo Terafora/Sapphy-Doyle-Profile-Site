@@ -32,3 +32,14 @@
 .resume-download {
     color: aquamarine;
 }
+
+@media screen and (max-width: 991px){
+
+    .home {
+        margin: 25vh auto;
+    }
+
+    .banner {
+        top: 20vh;
+    }
+}
