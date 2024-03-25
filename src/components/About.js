@@ -3,7 +3,7 @@ import './About.css';
 
 export default function About() {
   return (
-    <div>
+    <div className="about-sect">
       <div className="container d-flex align-items-center justify-content-center">
         <div className="row gx-5 about-row">
           <div className="col-12 col-lg-3 my-5 d-flex justify-content-center">
@@ -21,7 +21,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="container d-flex align-items-center justify-content-center">
+      <div className="container d-flex align-items-center justify-content-center mt-5">
         <div className="row gx-5 about-row">
           <div className="col-12 col-lg-9 glassbg about-text">
             <div>

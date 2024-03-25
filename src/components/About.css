@@ -1,8 +1,12 @@
+.about-sect {
+    height: 90vh;
+}
+
 .about-row {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: auto;
+    height: 100%;
 }
 
 .about-text {
