@@ -34,17 +34,17 @@ export default function Skills() {
                 <div className="row">
                     <div className="col-lg-1">
                         <ul className="text-white">
-                            <li><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
-                            <li><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
-                            <li><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
-                            <li><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
-                            <li><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
-                            <li><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
-                            <li><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
-                            <li><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
-                            <li><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
-                            <li><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
-                            <li><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
+                            <li className="pulsating-icon"><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
+                            <li className="pulsating-icon"><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
+                            <li className="pulsating-icon"><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
+                            <li className="pulsating-icon"><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
+                            <li className="pulsating-icon"><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
+                            <li className="pulsating-icon"><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
+                            <li className="pulsating-icon"><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
+                            <li className="pulsating-icon"><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
+                            <li className="pulsating-icon"><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
+                            <li className="pulsating-icon"><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
+                            <li className="pulsating-icon"><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
                         </ul>
                     </div>
                     <div className="col-md-4 col-lg-11 glassbg">
