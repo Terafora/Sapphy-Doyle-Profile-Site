@@ -118,7 +118,7 @@ export default function Skills() {
         <div className="d-flex align-items-center justify-content-center">
             <div className="container skills-sect">
                 <div className="row">
-                    <div className="col-lg-1">
+                    <div className="col-lg-1 d-none d-lg-block">
                         <ul className="text-white">
                             <li className="pulsating-icon" onClick={() => handleSkillChange(1)}><FontAwesomeIcon icon={skill === 1 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
                             <li className="pulsating-icon" onClick={() => handleSkillChange(2)}><FontAwesomeIcon icon={skill === 2 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
@@ -132,8 +132,20 @@ export default function Skills() {
                             <li className="pulsating-icon" onClick={() => handleSkillChange(10)}><FontAwesomeIcon icon={skill === 10 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
                         </ul>
                     </div>
-                    <div className="col-md-4 col-lg-11 py-5 px-5 d-flex justify-content-center align-items-center">
+                    <div className="col-lg-11 py-5 px-5 d-flex justify-content-center align-items-center d-none d-lg-block">
                         {renderSkill()}
+                    </div>
+                    <div className="col-md-12  py-5 px-5 d-lg-none">
+                        <div>{skillOne}</div>
+                        <div className="my-5">{skillTwo}</div>
+                        <div className="my-5">{skillThree}</div>
+                        <div className="my-5">{skillFour}</div>
+                        <div className="my-5">{skillFive}</div>
+                        <div className="my-5">{skillSix}</div>
+                        <div className="my-5">{skillSeven}</div>
+                        <div className="my-5">{skillEight}</div>
+                        <div className="my-5">{skillNine}</div>
+                        <div className="my-5">{skillTen}</div>
                     </div>
                 </div>
             </div>

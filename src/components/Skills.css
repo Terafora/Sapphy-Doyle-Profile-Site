@@ -1,7 +1,5 @@
 ul {
     list-style-type: none;
-
-
 }
 
 li {
@@ -32,4 +30,10 @@ li {
 
 .pulsating-icon {
     animation: pulse 1.5s infinite alternate;
+}
+
+@media (max-width: 991px) {
+    .skills-sect {
+        margin-top: 0;
+    }
 }
