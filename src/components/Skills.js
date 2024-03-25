@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCircleNotch, faCircle } from '@fortawesome/free-solid-svg-icons';
+import { faCircleDot, faCircle } from '@fortawesome/free-solid-svg-icons';
 import './Skills.css';
 
 export default function Skills() {
@@ -120,16 +120,16 @@ export default function Skills() {
                 <div className="row">
                     <div className="col-lg-1">
                         <ul className="text-white">
-                            <li className="pulsating-icon" onClick={() => handleSkillChange(1)}><FontAwesomeIcon icon={skill === 1 ? faCircle : faCircleNotch}></FontAwesomeIcon></li>
-                            <li className="pulsating-icon" onClick={() => handleSkillChange(2)}><FontAwesomeIcon icon={skill === 2 ? faCircle : faCircleNotch}></FontAwesomeIcon></li>
-                            <li className="pulsating-icon" onClick={() => handleSkillChange(3)}><FontAwesomeIcon icon={skill === 3 ? faCircle : faCircleNotch}></FontAwesomeIcon></li>
-                            <li className="pulsating-icon" onClick={() => handleSkillChange(4)}><FontAwesomeIcon icon={skill === 4 ? faCircle : faCircleNotch}></FontAwesomeIcon></li>
-                            <li className="pulsating-icon" onClick={() => handleSkillChange(5)}><FontAwesomeIcon icon={skill === 5 ? faCircle : faCircleNotch}></FontAwesomeIcon></li>
-                            <li className="pulsating-icon" onClick={() => handleSkillChange(6)}><FontAwesomeIcon icon={skill === 6 ? faCircle : faCircleNotch}></FontAwesomeIcon></li>
-                            <li className="pulsating-icon" onClick={() => handleSkillChange(7)}><FontAwesomeIcon icon={skill === 7 ? faCircle : faCircleNotch}></FontAwesomeIcon></li>
-                            <li className="pulsating-icon" onClick={() => handleSkillChange(8)}><FontAwesomeIcon icon={skill === 8 ? faCircle : faCircleNotch}></FontAwesomeIcon></li>
-                            <li className="pulsating-icon" onClick={() => handleSkillChange(9)}><FontAwesomeIcon icon={skill === 9 ? faCircle : faCircleNotch}></FontAwesomeIcon></li>
-                            <li className="pulsating-icon" onClick={() => handleSkillChange(10)}><FontAwesomeIcon icon={skill === 10 ? faCircle : faCircleNotch}></FontAwesomeIcon></li>
+                            <li className="pulsating-icon" onClick={() => handleSkillChange(1)}><FontAwesomeIcon icon={skill === 1 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
+                            <li className="pulsating-icon" onClick={() => handleSkillChange(2)}><FontAwesomeIcon icon={skill === 2 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
+                            <li className="pulsating-icon" onClick={() => handleSkillChange(3)}><FontAwesomeIcon icon={skill === 3 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
+                            <li className="pulsating-icon" onClick={() => handleSkillChange(4)}><FontAwesomeIcon icon={skill === 4 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
+                            <li className="pulsating-icon" onClick={() => handleSkillChange(5)}><FontAwesomeIcon icon={skill === 5 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
+                            <li className="pulsating-icon" onClick={() => handleSkillChange(6)}><FontAwesomeIcon icon={skill === 6 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
+                            <li className="pulsating-icon" onClick={() => handleSkillChange(7)}><FontAwesomeIcon icon={skill === 7 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
+                            <li className="pulsating-icon" onClick={() => handleSkillChange(8)}><FontAwesomeIcon icon={skill === 8 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
+                            <li className="pulsating-icon" onClick={() => handleSkillChange(9)}><FontAwesomeIcon icon={skill === 9 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
+                            <li className="pulsating-icon" onClick={() => handleSkillChange(10)}><FontAwesomeIcon icon={skill === 10 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
                         </ul>
                     </div>
                     <div className="col-md-4 col-lg-11 py-5 px-5">
