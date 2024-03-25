@@ -34,9 +34,13 @@ export default function Skills() {
             case 10:
                 return skillTen;
             default:
-                return "Please select a skill";
-        }
-    }
+                return(
+                    <div>
+                        <h1 className="text-white">Skills</h1>
+                        <p className="text-white">Please select a skill</p>
+                    </div>
+                );
+    }}
 
     const skillOne = (
         <div>
