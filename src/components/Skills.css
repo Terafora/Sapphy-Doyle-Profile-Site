@@ -34,6 +34,6 @@ li {
 
 @media (max-width: 991px) {
     .skills-sect {
-        margin-top: 0;
+        margin: 0;
     }
 }
