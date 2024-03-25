@@ -73,7 +73,7 @@ export default function Skills() {
     );
 
     const skillSix = (
-        <div className="glassbg skills-desc">
+        <div className="glassbg skills-desc py-5 px-5">
             <h3 className="text-white text-center">Skill Six</h3>
             <p className="text-white">Description of Skill Six</p>
         </div>
@@ -132,7 +132,7 @@ export default function Skills() {
                             <li className="pulsating-icon" onClick={() => handleSkillChange(10)}><FontAwesomeIcon icon={skill === 10 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
                         </ul>
                     </div>
-                    <div className="col-md-4 col-lg-11 py-5 px-5">
+                    <div className="col-md-4 col-lg-11 py-5 px-5 d-flex justify-content-center align-items-center">
                         {renderSkill()}
                     </div>
                 </div>
