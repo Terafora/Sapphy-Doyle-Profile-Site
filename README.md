@@ -8,7 +8,7 @@ As this is being made for free I had one condition which was that I was allowed 
 
 ### Home
 
-![Screen Recording - Mar 22, 2024](https://github.com/Terafora/profile-site-for-sapphy/assets/144109245/a51e5af8-234f-4ef1-b3c2-3a3cd369022d)
+![Screen Recording - Mar 25, 2024](https://github.com/Terafora/profile-site-for-sapphy/assets/144109245/427268fb-dc4b-4c67-8ec7-565d7055b74a)
 
 The Home page of the site allows for users to download Sapphy's résumé. As of the moment the site is still using placeholder text and images while Sapphy gets the relevant items to be used throughout the site.
 
