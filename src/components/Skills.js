@@ -1,4 +1,7 @@
 import React, {useState} from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCircleNotch } from '@fortawesome/free-solid-svg-icons';
+import './Skills.css';
 
 export default function Skills() {
 
@@ -26,9 +29,29 @@ export default function Skills() {
     );
 
     return (
-        <div>
-        <h1 className="text-white text-center">Skills</h1>
-
+        <div className="d-flex align-items-center justify-content-center">
+            <div className="container skills-sect">
+                <div className="row">
+                    <div className="col-lg-1">
+                        <ul className="text-white">
+                            <li><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
+                            <li><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
+                            <li><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
+                            <li><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
+                            <li><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
+                            <li><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
+                            <li><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
+                            <li><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
+                            <li><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
+                            <li><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
+                            <li><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
+                        </ul>
+                    </div>
+                    <div className="col-md-4 col-lg-11 glassbg">
+                        {skillOne}
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
