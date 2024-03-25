@@ -34,83 +34,85 @@ export default function Skills() {
             case 10:
                 return skillTen;
             default:
-                return(
-                    <div>
-                        <h1 className="text-white">Skills</h1>
-                        <p className="text-white">Please select a skill</p>
-                    </div>
-                );
+                return selectSkill;
     }}
 
     const skillOne = (
-        <div>
-            <h3 className="text-white">Skill One</h3>
+        <div className="glassbg skills-desc py-5 px-5">
+            <h3 className="text-white text-center">Skill One</h3>
             <p className="text-white">Description of Skill One</p>
         </div>
     );
 
     const skillTwo = (
-        <div>
-            <h3 className="text-white">Skill Two</h3>
+        <div className="glassbg skills-desc py-5 px-5">
+            <h3 className="text-white text-center">Skill Two</h3>
             <p className="text-white">Description of Skill Two</p>
         </div>
     );
 
     const skillThree = (
-        <div>
-            <h3 className="text-white">Skill Three</h3>
+        <div className="glassbg skills-desc py-5 px-5">
+            <h3 className="text-white text-center">Skill Three</h3>
             <p className="text-white">Description of Skill Three</p>
         </div>
     );
 
     const skillFour = (
-        <div>
-            <h3 className="text-white">Skill Three</h3>
-            <p className="text-white">Description of Skill Three</p>
+        <div className="glassbg skills-desc py-5 px-5">
+            <h3 className="text-white text-center">Skill Four</h3>
+            <p className="text-white">Description of Skill Four</p>
         </div>
     );
 
     const skillFive = (
-        <div>
-            <h3 className="text-white">Skill Three</h3>
-            <p className="text-white">Description of Skill Three</p>
+        <div className="glassbg skills-desc py-5 px-5">
+            <h3 className="text-white text-center">Skill Five</h3>
+            <p className="text-white">Description of Skill Five</p>
         </div>
     );
 
     const skillSix = (
-        <div>
-            <h3 className="text-white">Skill Six</h3>
+        <div className="glassbg skills-desc">
+            <h3 className="text-white text-center">Skill Six</h3>
             <p className="text-white">Description of Skill Six</p>
         </div>
     );
 
     const skillSeven = (
-        <div>
-            <h3 className="text-white">Skill Seven</h3>
+        <div className="glassbg skills-desc py-5 px-5">
+            <h3 className="text-white text-center">Skill Seven</h3>
             <p className="text-white">Description of Skill Seven</p>
         </div>
     );
 
     const skillEight = (
-        <div>
-            <h3 className="text-white">Skill Eight</h3>
+        <div className="glassbg skills-desc py-5 px-5">
+            <h3 className="text-white text-center">Skill Eight</h3>
             <p className="text-white">Description of Skill Eight</p>
         </div>
     );
 
     const skillNine = (
-        <div>
-            <h3 className="text-white">Skill Nine</h3>
+        <div className="glassbg skills-desc py-5 px-5">
+            <h3 className="text-white text-center">Skill Nine</h3>
             <p className="text-white">Description of Skill Nine</p>
         </div>
     );
 
     const skillTen = (
-        <div>
-            <h3 className="text-white">Skill Ten</h3>
+        <div className="glassbg skills-desc py-5 px-5">
+            <h3 className="text-white text-center">Skill Ten</h3>
             <p className="text-white">Description of Skill Ten</p>
         </div>
     );
+
+    const selectSkill = (
+        <div className="glassbg skills-desc py-5 px-5">
+            <h1 className="text-white text-center">Skills</h1>
+            <h2 className="text-white text-center">Please select a skill on the left.</h2>
+        </div>
+    )
 
     return (
         <div className="d-flex align-items-center justify-content-center">
@@ -130,7 +132,7 @@ export default function Skills() {
                             <li className="pulsating-icon" onClick={() => handleSkillChange(10)}><FontAwesomeIcon icon={faCircleNotch}></FontAwesomeIcon></li>
                         </ul>
                     </div>
-                    <div className="col-md-4 col-lg-11 glassbg">
+                    <div className="col-md-4 col-lg-11 py-5 px-5">
                         {renderSkill()}
                     </div>
                 </div>
