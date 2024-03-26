@@ -1,7 +1,11 @@
 .history-timeline {
     display: flex;
-    justify-content: space-around; /* Adjust as needed */
-    align-items: center; /* Centers items vertically, if needed */
-    list-style: none; /* Removes default list styling */
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
     padding: 0;
+}
+
+li {
+    text-align: left;
 }
