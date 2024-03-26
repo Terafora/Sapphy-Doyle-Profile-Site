@@ -25,7 +25,7 @@ export default function About() {
               </p>
             </div>
           </div>
-          <div className="col-12 col-lg-3 my-5 d-flex justify-content-center">
+          <div className="col-12 col-lg-3 my-3 d-flex justify-content-center">
             <img src="https://fakeimg.pl/300x300?font=bebas" className="rounded" alt="placeholder" />
           </div>
         </div>
