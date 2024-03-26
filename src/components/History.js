@@ -29,6 +29,7 @@ export default function Jobs() {
         <div className="glassbg py-5 px-5">
             <h2 className="text-white text-center">Optical Consultant</h2>
             <h3 className="text-white text-center">Specsavers - Stone <FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon></h3>
+            <h3 className="text-white text-center">July 2021 to December 2022</h3>
             <ul className="text-white">
                 <li>Testing, processing and caring for patients in preparation for eye tests, consults and medical
     appointments with our optometrists; in a swift timely manner. On average, 24-32 patients for processing
@@ -45,25 +46,56 @@ export default function Jobs() {
     );
 
     const historyTwo = (
-        <div className="glassbg skills-desc py-5 px-5">
-            <h3 className="text-white text-center">Skill Two</h3>
-            <p className="text-white">Description of Skill Two</p>
-        </div>
-    );
+<div className="glassbg py-5 px-5">
+            <h2 className="text-white text-center">Bartender</h2>
+            <h3 className="text-white text-center">Heineken Franchise Pub - Stone <FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon></h3>
+            <h3 className="text-white text-center">December 2019 to March 2020</h3>
+            <ul className="text-white">
+                <li>Serving patrons various beverages and foods with pleasure and offering friendly polite conversation
+during appropriate periods.</li>
+                <li>Maintaining a clean, organised bar and patron space in order for the establishment to be hygienic,
+welcoming and safe. Stocking and maintaining the fast moving stock from storerooms between duties.
+</li>
+                <li>Setting up and maintaining the various pieces of bar equipment and ensuring swift reestablishment
+of supply when barrels run dry.</li>
+            </ul>
+        </div>    );
 
     const historyThree = (
-        <div className="glassbg skills-desc py-5 px-5">
-            <h3 className="text-white text-center">Skill Three</h3>
-            <p className="text-white">Description of Skill Three</p>
-        </div>
-    );
+<div className="glassbg py-5 px-5">
+            <h2 className="text-white text-center">Customer Assistant</h2>
+            <h3 className="text-white text-center">Wm Morrisons Supermarkets - Stone <FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon></h3>
+            <h3 className="text-white text-center">July 2015 to December 2019</h3>
+            <ul className="text-white">
+                <li> Carefully handling customer complaint and conflict issues on the complaints desk. Ensuring all product,
+service and cost issues raised by customers were resolved swiftly and with highest attainable customer
+satisfaction. Using interpersonal skills in order to deescalate any customer conflict that can arise during
+daily operations, striving to reverse any negative interaction in order for the customer to leave satisfied.</li>
+                <li>Operating the store adjoined petrol fueling station , often in a lone capacity. Ensuring all through traffic
+of around 300-600 vehicles a shift was able to access our myriad services smoothly and swiftly, serving
+on foot customers. Facilitating the safe operation of the facility by ensuring all systems and machines
+are running safe and optimally, securing the premises as needed, and processing and securing large
+amounts of funds on a day to day basis.</li>
+                <li>Happily and effectively offering assistance to customers and colleagues alike as I moved around my
+myriad daily roles</li>
+            </ul>
+        </div>    );
 
     const historyFour = (
-        <div className="glassbg skills-desc py-5 px-5">
-            <h3 className="text-white text-center">Skill Four</h3>
-            <p className="text-white">Description of Skill Four</p>
-        </div>
-    );
+<div className="glassbg py-5 px-5">
+            <h2 className="text-white text-center">Customer Assistant</h2>
+            <h3 className="text-white text-center">Premier - Staffordshire <FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon></h3>
+            <h3 className="text-white text-center">November 2012 to July 2015</h3>
+            <ul className="text-white">
+                <li> Tending to customers in a friendly and personable manner, as the main clientele were local and regular.
+Exceeding efforts to maintain good relations with each one in order to maintain a happy and consistent
+customer base.</li>
+                <li> Consistently maintain a clean, tidy and well stocked store. In order for our customers to have the ease
+of use of our facilities and keep a clean and professional visage.</li>
+                <li>Ensuring stocked inventory, reordering as needed and securing of funds, and safely closing and
+securing the premises after daily operations.</li>
+            </ul>
+        </div>    );
 
     const selectHistory = (
         <div className="glassbg skills-desc py-5 px-5">
