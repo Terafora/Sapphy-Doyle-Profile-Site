@@ -7,7 +7,7 @@ export default function About() {
       <div className="container d-flex align-items-center justify-content-center">
         <div className="row gx-5 about-row">
           <div className="col-12 col-lg-3 my-5 d-flex justify-content-center">
-            <img src="https://fakeimg.pl/300x300?font=bebas" alt="placeholder" />
+            <img src="https://fakeimg.pl/300x300?font=bebas" className="rounded" alt="placeholder" />
           </div>
           <div className="col-12 col-lg-9 glassbg d-flex align-items-center about-text">
             <div>
@@ -18,11 +18,6 @@ export default function About() {
               </p>
             </div>
           </div>
-        </div>
-      </div>
-
-      <div className="container d-flex align-items-center justify-content-center mt-5">
-        <div className="row gx-5 about-row">
           <div className="col-12 col-lg-9 glassbg about-text">
             <div>
               <p className="text-white">
@@ -31,10 +26,10 @@ export default function About() {
             </div>
           </div>
           <div className="col-12 col-lg-3 my-5 d-flex justify-content-center">
-            <img src="https://fakeimg.pl/300x300?font=bebas" alt="placeholder" />
+            <img src="https://fakeimg.pl/300x300?font=bebas" className="rounded" alt="placeholder" />
           </div>
         </div>
+        </div>
       </div>
-    </div>
   );
 }
