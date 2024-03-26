@@ -5,6 +5,29 @@
   z-index: -1;
 }
 
+// icon use
+
+.pulsating-icon {
+  
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.pulsating-icon {
+  list-style: none;
+  animation: pulse 1.5s infinite alternate;
+}
+
 .glassbg {
   background: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(10px);

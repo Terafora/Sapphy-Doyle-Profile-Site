@@ -16,22 +16,6 @@ li {
     margin-top: 50px;
 }
 
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.2);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-.pulsating-icon {
-    animation: pulse 1.5s infinite alternate;
-}
-
 @media (max-width: 991px) {
     .skills-sect {
         margin: 0;
