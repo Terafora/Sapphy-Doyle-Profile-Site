@@ -28,11 +28,11 @@ const ParticlesComponent = (props) => {
       detectsOn: "canvas",
       events: {
         onClick: {
-          enable: true,
+          enable: false, // Disable onClick event
           mode: "push",
         },
         onHover: {
-          enable: true,
+          enable: false, // Disable onHover event
           mode: "repulse",
         },
         resize: true,
@@ -55,18 +55,7 @@ const ParticlesComponent = (props) => {
     },
     particles: {
       color: {
-        value: ["#ff0000", // Red
-        "#00ff00", // Green
-        "#0000ff", // Blue
-        "#ffff00", // Yellow
-        "#ff00ff", // Magenta
-        "#00ffff", // Cyan
-        "#ff8000", // Orange
-        "#8000ff", // Purple
-        "#80ff00", // Lime
-        "#0080ff", // Light Blue
-        "#ff0080", // Pink
-        "#00ff80",],
+        value: ["#ff0000", "#00ff00", "#0000ff", "#ffff00", "#ff00ff", "#00ffff", "#ff8000", "#8000ff", "#80ff00", "#0080ff", "#ff0080", "#00ff80"],
       },
       links: {
         color: "#ffffff",
@@ -89,7 +78,7 @@ const ParticlesComponent = (props) => {
       number: {
         density: {
           enable: true,
-          value_area: 800,
+          value_area: 4000, // Increase value to increase particle density
         },
         value: 80,
       },
@@ -97,7 +86,7 @@ const ParticlesComponent = (props) => {
         value: 0.5,
       },
       shape: {
-        type: "circle", // Change shape to circle for bubble effect
+        type: "circle",
       },
       size: {
         random: true,
@@ -106,6 +95,7 @@ const ParticlesComponent = (props) => {
     },
     detectRetina: true,
   }), []);
+
 
   return <Particles id={props.id} init={particlesLoaded} options={options} />;
 };
