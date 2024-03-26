@@ -117,7 +117,7 @@ securing the premises after daily operations.</li>
                         <li className="pulsating-icon" onClick={() => handleHistoryChange(4)}><FontAwesomeIcon icon={history === 4 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
                     </ul>
                 </div>
-                <div className="col-lg-11 py-5 px-5 d-flex justify-content-center align-items-center d-none d-lg-block">
+                <div className="col-lg-12 py-5 px-5 d-flex justify-content-center align-items-center d-none d-lg-block">
                     {renderHistory()}
                 </div>
                 <div className="col-md-12 py-5 px-5 d-lg-none mt-0">
