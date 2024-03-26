@@ -9,7 +9,7 @@ import History from './components/History';
 import Contact from './components/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ParticlesComponent from './components/ParticlesOpts';
-import Particles from "react-tsparticles";
+
 
 function App() {
   return (
