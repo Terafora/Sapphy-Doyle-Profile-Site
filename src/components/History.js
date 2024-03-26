@@ -51,7 +51,7 @@ export default function Jobs() {
             <h3 className="text-white text-center"><FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon> Heineken Franchise Pub - Stone</h3>
             <h3 className="text-white text-center">December 2019 to March 2020</h3>
             <ul className="text-white">
-                <li>Serving patrons various beverages and foods with pleasure and offering friendly polite conversation
+                <li className="">Serving patrons various beverages and foods with pleasure and offering friendly polite conversation
 during appropriate periods.</li>
                 <li>Maintaining a clean, organised bar and patron space in order for the establishment to be hygienic,
 welcoming and safe. Stocking and maintaining the fast moving stock from storerooms between duties.
@@ -110,7 +110,7 @@ securing the premises after daily operations.</li>
                 <div className="row">
                     <div className=" col-lg-12 d-none d-lg-block"></div>
                 <div className="row">
-                    <ul className="text-white history-timeline d-none d-lg-block">
+                    <ul className="text-white history-timeline d-none d-lg-flex">
                         <li className="pulsating-icon" onClick={() => handleHistoryChange(1)}><FontAwesomeIcon icon={history === 1 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
                         <li className="pulsating-icon" onClick={() => handleHistoryChange(2)}><FontAwesomeIcon icon={history === 2 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
                         <li className="pulsating-icon" onClick={() => handleHistoryChange(3)}><FontAwesomeIcon icon={history === 3 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
