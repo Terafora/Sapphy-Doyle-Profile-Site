@@ -1,3 +1,7 @@
 .contact-info {
     height: 90vh;
 }
+
+.email {
+    cursor: pointer;
+}
