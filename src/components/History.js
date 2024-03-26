@@ -28,7 +28,7 @@ export default function Jobs() {
     const historyOne = (
         <div className="glassbg py-5 px-5">
             <h2 className="text-white text-center">Optical Consultant</h2>
-            <h3 className="text-white text-center">Specsavers - Stone <FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon></h3>
+            <h3 className="text-white text-center"><FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon> Specsavers - Stone</h3>
             <h3 className="text-white text-center">July 2021 to December 2022</h3>
             <ul className="text-white">
                 <li>Testing, processing and caring for patients in preparation for eye tests, consults and medical
@@ -48,7 +48,7 @@ export default function Jobs() {
     const historyTwo = (
 <div className="glassbg py-5 px-5">
             <h2 className="text-white text-center">Bartender</h2>
-            <h3 className="text-white text-center">Heineken Franchise Pub - Stone <FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon></h3>
+            <h3 className="text-white text-center"><FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon> Heineken Franchise Pub - Stone</h3>
             <h3 className="text-white text-center">December 2019 to March 2020</h3>
             <ul className="text-white">
                 <li>Serving patrons various beverages and foods with pleasure and offering friendly polite conversation
@@ -64,7 +64,7 @@ of supply when barrels run dry.</li>
     const historyThree = (
 <div className="glassbg py-5 px-5">
             <h2 className="text-white text-center">Customer Assistant</h2>
-            <h3 className="text-white text-center">Wm Morrisons Supermarkets - Stone <FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon></h3>
+            <h3 className="text-white text-center"><FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon> Wm Morrisons Supermarkets - Stone</h3>
             <h3 className="text-white text-center">July 2015 to December 2019</h3>
             <ul className="text-white">
                 <li> Carefully handling customer complaint and conflict issues on the complaints desk. Ensuring all product,
@@ -84,7 +84,7 @@ myriad daily roles</li>
     const historyFour = (
 <div className="glassbg py-5 px-5">
             <h2 className="text-white text-center">Customer Assistant</h2>
-            <h3 className="text-white text-center">Premier - Staffordshire <FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon></h3>
+            <h3 className="text-white text-center"><FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon> Premier - Staffordshire</h3>
             <h3 className="text-white text-center">November 2012 to July 2015</h3>
             <ul className="text-white">
                 <li> Tending to customers in a friendly and personable manner, as the main clientele were local and regular.
@@ -108,10 +108,9 @@ securing the premises after daily operations.</li>
         <div className="d-flex align-items-center justify-content-center">
             <div className="container skills-sect">
                 <div className="row">
-                    <div className="col-lg-12 d-none d-lg-block">
-                </div>
+                    <div className=" col-lg-12 d-none d-lg-block"></div>
                 <div className="row">
-                    <ul className="text-white history-timeline">
+                    <ul className="text-white history-timeline d-none d-lg-block">
                         <li className="pulsating-icon" onClick={() => handleHistoryChange(1)}><FontAwesomeIcon icon={history === 1 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
                         <li className="pulsating-icon" onClick={() => handleHistoryChange(2)}><FontAwesomeIcon icon={history === 2 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
                         <li className="pulsating-icon" onClick={() => handleHistoryChange(3)}><FontAwesomeIcon icon={history === 3 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
