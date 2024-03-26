@@ -64,7 +64,7 @@ export default function Jobs() {
                         <li className="pulsating-icon" onClick={() => handleEducationChange(3)}><FontAwesomeIcon icon={education === 3 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
                     </ul>
                 </div>
-                <div className="col-lg-11 py-5 px-5 d-flex justify-content-center align-items-center d-none d-lg-block">
+                <div className="col-lg-12 py-5 px-5 d-flex justify-content-center align-items-center d-none d-lg-block">
                     {renderEducation()}
                 </div>
                 <div className="col-md-12 py-5 px-5 d-lg-none mt-0">
