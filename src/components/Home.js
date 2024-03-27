@@ -31,7 +31,7 @@ export default function Home() {
       <div className="home container d-flex align-items-center justify-content-center">
         <div className="row">
           <div className="col-12 col-lg-6 my-5 d-flex justify-content-center">
-            <img src="https://fakeimg.pl/400x600?font=bebas" alt="placeholder" />
+            <img src="https://fakeimg.pl/400x600?font=bebas" className="rounded" alt="placeholder" />
           </div>
           <div className="col-lg-6 glassbg d-flex align-items-center">
             <div className="text-center">
