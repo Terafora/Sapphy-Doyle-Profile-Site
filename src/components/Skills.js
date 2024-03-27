@@ -112,43 +112,44 @@ export default function Skills() {
             <h1 className="text-white text-center">Skills</h1>
             <h2 className="text-white text-center">Please select a skill on the left.</h2>
         </div>
-    )
+    ) 
 
-    return (
+return (
         <div className="d-flex align-items-center justify-content-center">
             <div className="container skills-sect">
                 <div className="row">
-                    <div className="col-lg-1 d-none d-lg-block">
-                        <ul className="text-white">
-                            <li className="pulsating-icon" onClick={() => handleSkillChange(1)}><FontAwesomeIcon icon={skill === 1 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
-                            <li className="pulsating-icon" onClick={() => handleSkillChange(2)}><FontAwesomeIcon icon={skill === 2 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
-                            <li className="pulsating-icon" onClick={() => handleSkillChange(3)}><FontAwesomeIcon icon={skill === 3 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
-                            <li className="pulsating-icon" onClick={() => handleSkillChange(4)}><FontAwesomeIcon icon={skill === 4 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
-                            <li className="pulsating-icon" onClick={() => handleSkillChange(5)}><FontAwesomeIcon icon={skill === 5 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
-                            <li className="pulsating-icon" onClick={() => handleSkillChange(6)}><FontAwesomeIcon icon={skill === 6 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
-                            <li className="pulsating-icon" onClick={() => handleSkillChange(7)}><FontAwesomeIcon icon={skill === 7 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
-                            <li className="pulsating-icon" onClick={() => handleSkillChange(8)}><FontAwesomeIcon icon={skill === 8 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
-                            <li className="pulsating-icon" onClick={() => handleSkillChange(9)}><FontAwesomeIcon icon={skill === 9 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
-                            <li className="pulsating-icon" onClick={() => handleSkillChange(10)}><FontAwesomeIcon icon={skill === 10 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
-                        </ul>
-                    </div>
-                    <div className="col-lg-11 py-5 px-5 d-flex justify-content-center align-items-center d-none d-lg-block">
-                        {renderSkill()}
-                    </div>
-                    <div className="col-md-12 py-5 px-5 d-lg-none mt-0">
-                        <div>{skillOne}</div>
-                        <div className="my-3">{skillTwo}</div>
-                        <div className="my-3">{skillThree}</div>
-                        <div className="my-3">{skillFour}</div>
-                        <div className="my-3">{skillFive}</div>
-                        <div className="my-3">{skillSix}</div>
-                        <div className="my-3">{skillSeven}</div>
-                        <div className="my-3">{skillEight}</div>
-                        <div className="my-3">{skillNine}</div>
-                        <div className="mt-3">{skillTen}</div>
-                    </div>
+                    <div className=" col-lg-12 d-none d-lg-block"></div>
+                <div className="row">
+                    <ul className="text-white skill-list d-none d-lg-flex">
+                        <li className="pulsating-icon" onClick={() => handleSkillChange(1)}><FontAwesomeIcon icon={skill === 1 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
+                        <li className="pulsating-icon" onClick={() => handleSkillChange(2)}><FontAwesomeIcon icon={skill === 2 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
+                        <li className="pulsating-icon" onClick={() => handleSkillChange(3)}><FontAwesomeIcon icon={skill === 3 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
+                        <li className="pulsating-icon" onClick={() => handleSkillChange(4)}><FontAwesomeIcon icon={skill === 4 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
+                        <li className="pulsating-icon" onClick={() => handleSkillChange(5)}><FontAwesomeIcon icon={skill === 5 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
+                        <li className="pulsating-icon" onClick={() => handleSkillChange(6)}><FontAwesomeIcon icon={skill === 6 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
+                        <li className="pulsating-icon" onClick={() => handleSkillChange(7)}><FontAwesomeIcon icon={skill === 7 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
+                        <li className="pulsating-icon" onClick={() => handleSkillChange(8)}><FontAwesomeIcon icon={skill === 8 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
+                        <li className="pulsating-icon" onClick={() => handleSkillChange(9)}><FontAwesomeIcon icon={skill === 9 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
+                        <li className="pulsating-icon" onClick={() => handleSkillChange(10)}><FontAwesomeIcon icon={skill === 10 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
+                    </ul>
+                </div>
+                <div className="col-lg-12 py-5 px-5 d-flex justify-content-center align-items-center d-none d-lg-block">
+                    {renderSkill()}
+                </div>
+                <div className="col-md-12 py-5 px-5 d-lg-none mt-0">
+                    <div>{skillOne}</div>
+                    <div className="my-3">{skillTwo}</div>
+                    <div className="my-3">{skillThree}</div>
+                    <div className="my-3">{skillFour}</div>
+                    <div className="my-3">{skillFive}</div>
+                    <div className="my-3">{skillSix}</div>
+                    <div className="my-3">{skillSeven}</div>
+                    <div className="my-3">{skillEight}</div>
+                    <div className="my-3">{skillNine}</div>
+                    <div className="my-3">{skillTen}</div>
                 </div>
             </div>
         </div>
+    </div>
     );
 }

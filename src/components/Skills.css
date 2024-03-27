@@ -16,6 +16,14 @@ li {
     margin-top: 50px;
 }
 
+.skill-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
 @media (max-width: 991px) {
     .skills-sect {
         margin: 0;
