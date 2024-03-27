@@ -55,7 +55,7 @@ const ParticlesComponent = (props) => {
     },
     particles: {
       color: {
-        value: ["#ff0000", "#00ff00", "#0000ff", "#ffff00", "#ff00ff", "#00ffff", "#ff8000", "#8000ff", "#80ff00", "#0080ff", "#ff0080", "#00ff80"],
+        value: ["#800080", "#FFFFFF", "#E6E6FA", "#D8BFD8", "#DDA0DD", "#EE82EE", "#DA70D6", "#FF00FF", "#9370DB", "#8A2BE2", "#9400D3", "#9932CC", "#4B0082", "#6A5ACD", "#7B68EE"],
       },
       links: {
         color: "#ffffff",
@@ -78,7 +78,7 @@ const ParticlesComponent = (props) => {
       number: {
         density: {
           enable: true,
-          value_area: 4000, // Increase value to increase particle density
+          value_area: 4000,
         },
         value: 80,
       },
