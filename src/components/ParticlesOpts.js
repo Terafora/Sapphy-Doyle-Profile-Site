@@ -28,11 +28,11 @@ const ParticlesComponent = (props) => {
       detectsOn: "canvas",
       events: {
         onClick: {
-          enable: false, // Disable onClick event
+          enable: false,
           mode: "push",
         },
         onHover: {
-          enable: false, // Disable onHover event
+          enable: false,
           mode: "repulse",
         },
         resize: true,
@@ -55,7 +55,7 @@ const ParticlesComponent = (props) => {
     },
     particles: {
       color: {
-        value: ["#800080", "#FFFFFF", "#E6E6FA", "#D8BFD8", "#DDA0DD", "#EE82EE", "#DA70D6", "#FF00FF", "#9370DB", "#8A2BE2", "#9400D3", "#9932CC", "#4B0082", "#6A5ACD", "#7B68EE"],
+        value: ["#800080", "#FFFFFF", "#E6E6FA", "#D8BFD8", "#DDA0DD", "#EE82EE", "#DA70D6", "FFFF00", "#FF00FF", "#9370DB", "#8A2BE2", "#9400D3", "#9932CC", "#4B0082", "#6A5ACD", "#7B68EE"],
       },
       links: {
         color: "#ffffff",
