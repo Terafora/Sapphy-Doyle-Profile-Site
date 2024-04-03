@@ -19,6 +19,7 @@ The Home page of the site allows for users to download Sapphy's résumé. As of 
 - CSS/ReactBootStrap
 - JavaScript / React
 - Tsparticles
+- FramerMotion
 - Figma
 
 ## Design
