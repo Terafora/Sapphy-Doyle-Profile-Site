@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleDot, faCircle, faLocationDot } from '@fortawesome/free-solid-svg-icons';
-import {motion} from 'framer-motion';
+
 import './History.css';
 
 export default function Jobs() {

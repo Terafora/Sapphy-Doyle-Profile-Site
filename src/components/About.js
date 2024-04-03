@@ -1,9 +1,17 @@
 import React from 'react';
 import './About.css';
+import { motion } from 'framer-motion';
+import { pageVariants, pageTransition } from './AnimationVariations';
 
 export default function About() {
   return (
-    <div className="about-sect">
+    <motion.div
+    initial="initial"
+      animate="in"
+      exit="out"
+      variants={pageVariants}
+      transition={pageTransition}>
+      <div className="about-sect">
       <div className="container d-flex align-items-center justify-content-center">
         <div className="row gx-5 about-row">
           <div className="col-12 col-lg-3 my-5 d-flex justify-content-center">
@@ -31,5 +39,6 @@ export default function About() {
         </div>
         </div>
       </div>
+    </motion.div>
   );
 }

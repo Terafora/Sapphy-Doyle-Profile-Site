@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleDot, faCircle } from '@fortawesome/free-solid-svg-icons';
+import { motion } from 'framer-motion';
+import { pageVariants, pageTransition } from './AnimationVariations';
 import './Skills.css';
 
 export default function Skills() {
@@ -115,6 +117,12 @@ export default function Skills() {
     ) 
 
 return (
+    <motion.div
+    initial="initial"
+      animate="in"
+      exit="out"
+      variants={pageVariants}
+      transition={pageTransition}>
         <div className="d-flex align-items-center justify-content-center">
             <div className="container skills-sect">
                 <div className="row">
@@ -137,7 +145,7 @@ return (
                     {renderSkill()}
                 </div>
                 <div className="col-md-12 py-5 px-5 d-lg-none mt-0">
-                    <div>{skillOne}</div>
+                    <div className="my-3">{skillOne}</div>
                     <div className="my-3">{skillTwo}</div>
                     <div className="my-3">{skillThree}</div>
                     <div className="my-3">{skillFour}</div>
@@ -151,5 +159,6 @@ return (
             </div>
         </div>
     </div>
+    </motion.div>
     );
 }

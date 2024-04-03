@@ -2,6 +2,8 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import './Contact.css';
+import { motion } from 'framer-motion';
+import { pageVariants, pageTransition } from './AnimationVariations';
 
 export default function Contact() {
 
@@ -12,6 +14,12 @@ export default function Contact() {
   }
 
   return (
+    <motion.div
+    initial="initial"
+            animate="in"
+            exit="out"
+            variants={pageVariants}
+            transition={pageTransition}>
     <div className="container-fluid">
       <div className="container d-flex align-items-center justify-content-center contact-info">
         <div className="row">
@@ -24,5 +32,6 @@ export default function Contact() {
         </div>
       </div>
     </div>
+    </motion.div>
   );
 }

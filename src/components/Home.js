@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload, faCheck } from '@fortawesome/free-solid-svg-icons';
 import './Home.css';
 import SapphyDoyleCV from '../assets/Sapphy-Doyle-CV.pdf';
+import { motion } from 'framer-motion';
+import { pageVariants, pageTransition } from './AnimationVariations';
 
 export default function Home() {
   const [showTick, setShowTick] = useState(false);
@@ -24,7 +26,12 @@ export default function Home() {
   };
 
   return (
-    <>
+    <motion.div
+    initial="initial"
+      animate="in"
+      exit="out"
+      variants={pageVariants}
+      transition={pageTransition}>
       <div className={`banner ${showBanner ? 'show' : ''}`}>
         CV download successful!
       </div>
@@ -54,6 +61,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </>
+    </motion.div>
   );
 }
