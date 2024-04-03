@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import TopNav from "./components/NavBar";
+import TopNav from "./components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ParticlesComponent from "./components/ParticlesOpts";
 import AnimatedRoutes from "./components/AnimatedRoutes";
