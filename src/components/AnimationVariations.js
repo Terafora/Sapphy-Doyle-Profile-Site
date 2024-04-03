@@ -11,6 +11,8 @@ const pageVariants = {
   };
   
 const pageTransition = {
+    transition: 'linear',
+    delay: 0.1,
     duration: 1
 };
   
