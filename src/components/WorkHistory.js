@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleDot, faCircle, faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import {motion} from 'framer-motion';
 import './History.css';
 
 export default function Jobs() {
@@ -108,25 +109,26 @@ securing the premises after daily operations.</li>
         <div className="d-flex align-items-center justify-content-center">
             <div className="container skills-sect">
                 <div className="row">
-                    <div className=" col-lg-12 d-none d-lg-block"></div>
-                <div className="row">
-                    <ul className="text-white history-timeline d-none d-lg-flex">
-                        <li className="pulsating-icon" onClick={() => handleHistoryChange(1)}><FontAwesomeIcon icon={history === 1 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
-                        <li className="pulsating-icon" onClick={() => handleHistoryChange(2)}><FontAwesomeIcon icon={history === 2 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
-                        <li className="pulsating-icon" onClick={() => handleHistoryChange(3)}><FontAwesomeIcon icon={history === 3 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
-                        <li className="pulsating-icon" onClick={() => handleHistoryChange(4)}><FontAwesomeIcon icon={history === 4 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
-                    </ul>
+                    <div className=" col-lg-12 d-none d-lg-block">
+                    </div>
+                    <div className="row">
+                        <ul className="text-white history-timeline d-none d-lg-flex">
+                            <li className="pulsating-icon" onClick={() => handleHistoryChange(1)}><FontAwesomeIcon icon={history === 1 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
+                            <li className="pulsating-icon" onClick={() => handleHistoryChange(2)}><FontAwesomeIcon icon={history === 2 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
+                            <li className="pulsating-icon" onClick={() => handleHistoryChange(3)}><FontAwesomeIcon icon={history === 3 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
+                            <li className="pulsating-icon" onClick={() => handleHistoryChange(4)}><FontAwesomeIcon icon={history === 4 ? faCircle : faCircleDot}></FontAwesomeIcon></li>
+                        </ul>
+                    </div>
+                    <div className="col-lg-12 py-5 px-5 d-flex justify-content-center align-items-center d-none d-lg-block">
+                        {renderHistory()}
+                    </div>
+                    <div className="col-md-12 py-5 px-5 d-lg-none mt-0">
+                        <div>{historyOne}</div>
+                        <div className="my-3">{historyTwo}</div>
+                        <div className="my-3">{historyThree}</div>
+                        <div className="my-3">{historyFour}</div>
+                    </div>
                 </div>
-                <div className="col-lg-12 py-5 px-5 d-flex justify-content-center align-items-center d-none d-lg-block">
-                    {renderHistory()}
-                </div>
-                <div className="col-md-12 py-5 px-5 d-lg-none mt-0">
-                    <div>{historyOne}</div>
-                    <div className="my-3">{historyTwo}</div>
-                    <div className="my-3">{historyThree}</div>
-                    <div className="my-3">{historyFour}</div>
-                </div>
-            </div>
         </div>
     </div>
     );
