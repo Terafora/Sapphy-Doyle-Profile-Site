@@ -24,6 +24,10 @@ li {
     padding: 0;
 }
 
+.skills-desc {
+    min-height: 60vh;
+}
+
 @media (max-width: 991px) {
     .skills-sect {
         margin: 0;
