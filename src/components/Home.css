@@ -9,6 +9,10 @@
     object-position: center;
 }
 
+.home-pic {
+    max-height: 600px;
+    width: auto;
+}
 
 .resume-download {
     cursor: pointer;
