@@ -13,6 +13,11 @@
     padding: 20px 10px;
 }
 
+.about-pics {
+    max-height: 300px;
+    max-width: 300px;
+}
+
 @media screen and (max-width: 1400px) {
     .about-row {
         flex-direction: column;
