@@ -2,6 +2,8 @@ import React from 'react';
 import './About.css';
 import { motion } from 'framer-motion';
 import { pageVariants, pageTransition } from './AnimationVariations';
+import picture1 from '../assets/images/about-image-1.jpg';
+import picture2 from '../assets/images/about-image-2.jpg';
 
 export default function About() {
   return (
@@ -15,7 +17,7 @@ export default function About() {
       <div className="container d-flex align-items-center justify-content-center">
         <div className="row gx-5 about-row">
           <div className="col-12 col-lg-3 my-5 d-flex justify-content-center">
-            <img src="https://fakeimg.pl/300x300?font=bebas" className="rounded" alt="placeholder" />
+            <img src={picture1} className="rounded about-pics" alt="Showing good communication skills in action." />
           </div>
           <div className="col-12 col-lg-9 glassbg d-flex align-items-center about-text">
             <div>
@@ -40,7 +42,7 @@ export default function About() {
             </div>
           </div>
           <div className="col-12 col-lg-3 my-3 d-flex justify-content-center">
-            <img src="https://fakeimg.pl/300x300?font=bebas" className="rounded" alt="placeholder" />
+            <img src={picture2} className="rounded about-pics" alt="A dimly lit laptop." />
           </div>
         </div>
       </div>
