@@ -1,5 +1,7 @@
 # Sapphy Doyle Profile Site
 
+![Screen Recording - Apr 18, 2024](https://github.com/Terafora/Sapphy-Doyle-Profile-Site/assets/144109245/da7a7fad-5dc3-47dd-a7aa-0abf8fae9605)
+
 ## About
 
 This is a website made for Sapphy Doyle, a young professional currently seeking employment.
@@ -8,22 +10,28 @@ As this is being made for free I had one condition which was that I was allowed 
 
 ### Home
 
-![Screen Recording - Mar 25, 2024](https://github.com/Terafora/profile-site-for-sapphy/assets/144109245/427268fb-dc4b-4c67-8ec7-565d7055b74a)
+![Screen Recording - Apr 18, 2024 (1)](https://github.com/Terafora/Sapphy-Doyle-Profile-Site/assets/144109245/9baff3a9-355f-4af5-9c37-11b20c8bbd71)
 
 - The left side has an image of Sapphy Doyle herself showcasing a bit of her personal image and personality to prospective employers. The image isn't finalised as there is a little too much highlighting in the image (and currently I don't have access to the photo editing software to correct this).
 - The right hand side holds a short synopsis of Sapphy Doyle and a link which downloads her résumé.
 
 ### About
 
+![Screen Recording - Apr 18, 2024 (2)](https://github.com/Terafora/Sapphy-Doyle-Profile-Site/assets/144109245/6682fc34-d728-415e-9457-b08dc78a7d93)
+
 - This page displays a little more information about Sapphy Doyle, and summarises her experiences and skills into a neat package while also letting recuiters know what she's currently doing and what she's aiming to do in the near future.
 
 ### Skills
+
+![Screen Recording - Apr 18, 2024 (3)](https://github.com/Terafora/Sapphy-Doyle-Profile-Site/assets/144109245/0f5608dc-6ffd-48bb-b96b-7023047604e6)
 
 - The Skills section includes 10 of Miss Sapphy Doyle's most competent skills which she believes will show employers the kind of person she is and how effective she can be in any work situation.
 - The disign of this section uses a row of buttons on the top of the screen with a designated area for skill name and description changing depending on which icon was clicked.
   - On Mobile these icons do not display and the skills and their respective descriptions all display in a list format for easier navigation.
 
-### history
+### History
+
+![Screen Recording - Apr 18, 2024 (4)](https://github.com/Terafora/Sapphy-Doyle-Profile-Site/assets/144109245/96e5e4d2-30d2-4cfb-a24b-4217af627850)
 
 - The History section includes all of Miss Sapphy Doyle's previous work history in a similar layout to the Skills section about and includes the:
   - Name and location of the business she worked for.
@@ -31,6 +39,8 @@ As this is being made for free I had one condition which was that I was allowed 
   - Three bullet points about her responsibilities in the role.
  
 ### Contact
+
+![Screen Recording - Apr 18, 2024 (5)](https://github.com/Terafora/Sapphy-Doyle-Profile-Site/assets/144109245/e678c485-fd93-48f5-b0c9-8ecab7031289)
 
 - The Contact page is the final page and sinply shows two ways in which users can get in contact with Miss Sapphy Doyle.
 - The phone number is a purely static item, however the email address when clicked will open a user's email application in another tab and alow them to create an email to Sapphy with her email already present in the address bar.
@@ -57,6 +67,7 @@ As this is being made for free I had one condition which was that I was allowed 
   - As with the colour scheme for the navbar purples were used for the particles in the background, in particular a range of purples were included in an array to be chosen to give a little variance and make the background more interesting. A singular white was used to contrast with the black background and a singular yellow was included to complement the purples used.
 - Glass morphism was used for the backgrounds to text to create a break from the moving background and increase readability and further reduce any distractibility that could come with the use of the tsparticles background.
 - White text was used throughout the site for consistency and to contrast against the black background to improve readability.
+- Framer Motion was used to make it so pages faded in and out more elegantly rather than having components immediately come in and out on button presses.
 
 ## Features
 
@@ -78,6 +89,11 @@ The website was deployed using Vercel. There were initially some issues with dep
 The live site can be found below:
 
 [Sapphy Doyle's Portfolio Site](https://profile-site-for-sapphy.vercel.app)
+
+## Future Changes
+
+- There are some layout quirks which I'd like to iron out to improve the consitency and general visual language between pages/components.
+- The way the Skills and History items are currently displayed is that they're called from within the respective files as variables, however I would like to improve this by seperating the information to their own files and displaying each one via a mapping process.
 
 ## Credits
 
