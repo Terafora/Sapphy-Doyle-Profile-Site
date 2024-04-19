@@ -143,7 +143,7 @@ export default function Skills() {
     const selectSkill = (
         <div className="glassbg skills-desc py-5 px-5">
             <h1 className="text-white text-center">Skills</h1>
-            <h2 className="text-white text-center">Please select a skill on the left.</h2>
+            <h2 className="text-white text-center">Please select a skill from above.</h2>
         </div>
     ) 
 
