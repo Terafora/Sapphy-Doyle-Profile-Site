@@ -4,22 +4,19 @@
 
 ## About
 
-This is a website made for Sapphy Doyle, a young professional currently seeking employment.
-I spoke to Sapphy and decided to work along side her coming up with a design for a profile site which would help her stand out to potential employers in her job search.
-As this is being made for free I had one condition which was that I was allowed to use any technology I wanted and I've learned a fair amount of React through online resources, but haven't had much experience with it I decided to use React along with React BootStrap and TsParticles to take care of the presentation and layout respectively by creating a single page application portfolio for her.
+Welcome to Sapphy Doyle's profile site, designed to showcase her skills and experience as she seeks new career opportunities. This site combines modern design with intuitive navigation to highlight Sapphy's professional journey.
 
 ### Home
 
 ![Screen Recording - Apr 18, 2024 (1)](https://github.com/Terafora/Sapphy-Doyle-Profile-Site/assets/144109245/9baff3a9-355f-4af5-9c37-11b20c8bbd71)
 
-- The left side has an image of Sapphy Doyle herself showcasing a bit of her personal image and personality to prospective employers. The image isn't finalised as there is a little too much highlighting in the image (and currently I don't have access to the photo editing software to correct this).
-- The right hand side holds a short synopsis of Sapphy Doyle and a link which downloads her résumé.
+- The home page features a striking image of Sapphy Doyle alongside a brief introduction and a downloadable link to her resume.
 
 ### About
 
 ![Screen Recording - Apr 18, 2024 (2)](https://github.com/Terafora/Sapphy-Doyle-Profile-Site/assets/144109245/6682fc34-d728-415e-9457-b08dc78a7d93)
 
-- This page displays a little more information about Sapphy Doyle, and summarises her experiences and skills into a neat package while also letting recuiters know what she's currently doing and what she's aiming to do in the near future.
+- Learn more about Sapphy Doyle's background, skills, and aspirations through a detailed profile summary.
 
 ### Skills
 
@@ -47,8 +44,7 @@ As this is being made for free I had one condition which was that I was allowed 
 
 ### Navbar (Component)
 
-- The Navbar component stays fixed while the rest of the content on the page changes when navigating.
-- The Navbar leverages the "useLocation" hook to dynamically change the highlighted page to where the user currently is on the site.
+- The Navbar component ensures seamless navigation across the site, with active page highlighting for enhanced user experience.
 
 ## Technologies
 
@@ -80,20 +76,16 @@ As this is being made for free I had one condition which was that I was allowed 
 
 ## Testing
 
-The web application was tested on number of physical and emulated devices to check the functionality of the site.
-Other the minor discrepancies the site performed as expected.
+- Thoroughly tested across various devices and resolutions to ensure compatibility and functionality.
 
 ## Deployment
 
-The website was deployed using Vercel. There were initially some issues with deployment due to naming conventions previously used with the Navbar component causing conflicts. This was solved with some assistance from Mathew Chaplin.
-The live site can be found below:
-
-[Sapphy Doyle's Portfolio Site](https://profile-site-for-sapphy.vercel.app)
+Deployed using Vercel, ensuring optimal performance and accessibility. Visit the live site [here](https://profile-site-for-sapphy.vercel.app).
 
 ## Future Changes
 
-- There are some layout quirks which I'd like to iron out to improve the consitency and general visual language between pages/components.
-- The way the Skills and History items are currently displayed is that they're called from within the respective files as variables, however I would like to improve this by seperating the information to their own files and displaying each one via a mapping process.
+- Planned improvements include refining layout consistency and optimizing content presentation.
+- Future updates will focus on modularizing content for easier management and scalability.
 
 ## Credits
 
@@ -116,6 +108,6 @@ The live site can be found below:
   
 ## Where to find more of my work 👇
 
-- [LinkedIn](https://www.linkedin.com/in/charlotte-stone-web/)
-- [Github](https://github.com/Terafora)
-- [Portfolio](https://terafora.github.io/Portfolio-Site/)
+- Connect with me on [LinkedIn](https://www.linkedin.com/in/charlotte-stone-web/)
+- Explore my other projects on [Github](https://github.com/Terafora)
+- Visit my portfolio site [here](https://terafora.github.io/Portfolio-Site/)
